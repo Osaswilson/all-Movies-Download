@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>movies chest</title>
+<link rel="stylesheet" type="text/css" href="learn.css">
+</head>
+<div class="learn">
+<h1>LEARN MORE</h1>
+
+<h3>we are licenced with the authority of united state of american and we love to read post of users in our page</h3>
+
+<p>hi everone this is webchest website and we love to give you the best rate of videos and movies and we can be able to have the licence to have you in the top of one of the best paid reveiws and you can also earn money by listening to music and follow this <a href="#">link</a> for more binformation about learning how to make money online and other stuff <br> so our videos are supported by many celebrity and we have the best reveiws eva had on social media so if you dont mind you can like and comment on our videos before downloading the videos acant wait to see you</p>
+
+
+
+<g>
+and we also have movies videos from diffrent website they suppprted us on their website licenced and have more followers and comment to follow us on instagram and faceboook and twitter at <a href="www.google/facebook/twitter/instagram.com">www.every.com</a> come visit us we love to see you in our office or social media page
+</g>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+<div class="container footer_container">
+<div class="footer_1">
+<a href="index.html" class="footer_logo"><h4>MOVIE CHEST</h4></a>
+<p>you can also reach out for many of our social media platform or about us</p>
+
+</div>
+
+<div class="footer_2">
+<h4>permalinks</h4>
+<ul class="permalinks">
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="movies.html">MOVIES</a></li>
+<li><a href="music.html">MUDIC</a></li>
+  </ul>
+</div>
+<div class="footer_3">
+<h4>pivacy</h4>
+<ul class="privacy">
+<li><a href="privacy.html">privacy policy</a></li>
+<li><a href="terms.html">Terms and codition</a><li>
+  <li><a href="refund.html">Refund policy</a></li>
+</ul>
+</div>
+
+
+<div class="footer_4">
+<h4>contact us</h4>
+<a href="tel:08155118486">tap to call us</a>
+<p>osasw123@gmail.com</p>
+</div>
+
+
+<ul class="footer_socials">
+<li><a href="https://facebook.com"><i class="fa fa-facebook"></i></a></li>
+<li><a href="https://instagram.com"><i class="fa fa-instagram"></i></a></li>
+<li><a href="https://twitter.com"><i class="fa fa-twitter"></i></a></li>
+<li><a href="https://linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+</ul>
+</div>
+</footer>
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="web.js"></script>
+
+
+<script type="text/javascript">
+  window.addEventListener('scroll', () => {
+  document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+  })
+
+
+
+const faqs = document.querySelectorAll('.faq');
+
+faqs.forEach(faq => {
+  faq.addEventListener('click', () =>{
+    faq.classList.toggle('open');
+
+    const icon = faq.querySelector('.faq_icon i');
+    if(icon.className === 'fa fa-plus') {
+       icon.className = 'fa fa-minus'
+    }else {
+      icon.className = 'fa fa-plus'
+    }
+    })
+  })
+
+
+
+const menu = document.querySelector(".nav_menu");
+const menuBtn = document.querySelector("#open-menu-btn");
+const closeBtn = document.querySelector("#close-menu-btn");
+
+
+menuBtn.addEventListener('click', () => {
+  menu.style.display = "flex";
+  closeBtn.style.display = "inline-block";
+  menuBtn.style.display = "none";
+})
+
+
+
+
+const closeNav = () => {
+  menu.style.display = "none";
+  closeBtn.style.display = "none";
+  menuBtn.style.display = "inline-block";
+}
+
+closeBtn.addEventListener('click', closeNav)
+</script>
+</body>
+</html>
